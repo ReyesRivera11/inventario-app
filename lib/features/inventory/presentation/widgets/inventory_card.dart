@@ -189,7 +189,7 @@ class InventoryCard extends StatelessWidget {
         vertical: screenSize.height * 0.004,
       ),
       decoration: BoxDecoration(
-        color: color.withOpacity(0.1),
+        color: AppColors.shadowColor,
         borderRadius: BorderRadius.circular(screenSize.width * 0.02),
       ),
       child: Row(

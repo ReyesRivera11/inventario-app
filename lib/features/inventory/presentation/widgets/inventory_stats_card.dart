@@ -186,7 +186,7 @@ class InventoryStatsCard extends StatelessWidget {
     return Container(
       padding: EdgeInsets.all(screenSize.width * 0.03),
       decoration: BoxDecoration(
-        color: color.withOpacity(0.1),
+        color: AppColors.shadowColor,
         borderRadius: BorderRadius.circular(screenSize.width * 0.03),
       ),
       child: Column(

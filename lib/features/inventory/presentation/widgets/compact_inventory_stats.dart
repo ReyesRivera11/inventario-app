@@ -110,7 +110,7 @@ class CompactInventoryStats extends StatelessWidget {
       decoration: BoxDecoration(
         color: backgroundColor,
         borderRadius: BorderRadius.circular(screenSize.width * 0.04),
-        border: Border.all(color: color.withOpacity(0.2)),
+        border: Border.all(color: AppColors.shadowColor),
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -156,7 +156,7 @@ class CompactInventoryStats extends StatelessWidget {
               fontSize: isSmallScreen
                   ? screenSize.width * 0.028
                   : screenSize.width * 0.03,
-              color: color.withOpacity(0.7),
+              color: AppColors.shadowColor,
               fontWeight: FontWeight.w500,
             ),
             maxLines: 1,
@@ -181,7 +181,7 @@ class CompactInventoryStats extends StatelessWidget {
       decoration: BoxDecoration(
         color: backgroundColor,
         borderRadius: BorderRadius.circular(screenSize.width * 0.03),
-        border: Border.all(color: color.withOpacity(0.2)),
+        border: Border.all(color: AppColors.shadowColor),
       ),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,

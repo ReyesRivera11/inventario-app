@@ -91,7 +91,7 @@ class _ProfilePageState extends State<ProfilePage> {
                             width: screenSize.width * 0.4,
                             height: screenSize.height * 0.06,
                             decoration: BoxDecoration(
-                              color: Colors.white.withOpacity(0.3),
+                              color: Colors.white,
                               borderRadius: BorderRadius.circular(12),
                             ),
                           ),
